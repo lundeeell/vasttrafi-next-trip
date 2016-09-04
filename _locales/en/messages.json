@@ -1,0 +1,74 @@
+{
+  "appName": {
+    "message": "Next trip",
+    "description": "App title"
+  },
+  "appDesc": {
+    "message": "Never get late again",
+    "description": "App description"
+  },
+  "travels": {
+    "message": "Travels",
+    "description": "Shown when the app loads"
+  },
+  "numberOfChanges": {
+    "message": "Maximum number of changes:",
+    "description": "Maximum number of changes"
+  },
+  "unlimitedChanges": {
+    "message": "Unlimited",
+    "description": "If changes is not defined, show 'Unlimited'."
+  },
+  "maxTravelTime": {
+    "message": "Max travel time (0 is infinite):",
+    "description": "Max travel time"
+  },
+  "toolbarIcon": {
+    "message": "Toolbar icon",
+    "description": "Toolbar icon string"
+  },
+  "refreshInterval": {
+    "message": "Refersh interval:",
+    "description": "Refresh interval string"
+  },
+  "status_upToDate": {
+    "message": "All settings are up to date",
+    "description": "Result message"
+  },
+  "saveSuccess": {
+    "message": "Options saved.",
+    "description": "Settings saved success"
+  },
+  "th_departures": {
+    "message": "Departure",
+    "description": "Travel table departure header"
+  },
+  "th_arrival": {
+    "message": "Arrival",
+    "description": "Travel table arrival header"
+  },
+  "th_travelTime": {
+    "message": "Travel time",
+    "description": "Travel table travel time header"
+  },
+  "th_changes": {
+    "message": "Changes",
+    "description": "Travel table changes header"
+  },
+  "th_line": {
+    "message": "Line",
+    "description": "Travel table line header"
+  },
+  "error_message": {
+    "message": "No travels to show",
+    "description": "Search didn't match any travels"
+  },
+  "originPlaceholder": {
+    "message": "From",
+    "description": "From search box placeholder"
+  },
+  "destinationPlaceholder": {
+    "message": "To",
+    "description": "To destination search box placeholder"
+  }
+}

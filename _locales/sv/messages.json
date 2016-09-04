@@ -1,0 +1,74 @@
+{
+  "appName": {
+    "message": "Nästa tur",
+    "description": "App title"
+  },
+  "appDesc": {
+    "message": "Kom aldrig sent igen",
+    "description": "App description"
+  },
+  "travels": {
+    "message": "Resor",
+    "description": "Shown when the app loads"
+  },
+  "numberOfChanges": {
+    "message": "Max antal byten:",
+    "description": "Maximum number of changes"
+  },
+  "unlimitedChanges": {
+    "message": "Obegränsat",
+    "description": "If changes is not defined, show 'Obegränsat'."
+  },
+  "maxTravelTime": {
+    "message": "Max restid (0 är obegränsad):",
+    "description": "Max travel time"
+  },
+  "toolbarIcon": {
+    "message": "Menyikon",
+    "description": "Toolbar icon string"
+  },
+  "refreshInterval": {
+    "message": "Uppdateringsintervall:",
+    "description": "Refresh interval string"
+  },
+  "status_upToDate": {
+    "message": "Inställningarna är uppdaterade.",
+    "description": "Result message"
+  },
+  "saveSuccess": {
+    "message": "Inställningar sparade.",
+    "description": "Settings saved success"
+  },
+  "th_departures": {
+    "message": "Avgång",
+    "description": "Travel table departure header"
+  },
+  "th_arrival": {
+    "message": "Ankomst",
+    "description": "Travel table arrival header"
+  },
+  "th_travelTime": {
+    "message": "Restid",
+    "description": "Travel table travel time header"
+  },
+  "th_changes": {
+    "message": "Byte",
+    "description": "Travel table changes header"
+  },
+  "th_line": {
+    "message": "Linje",
+    "description": "Travel table line header"
+  },
+  "error_message": {
+    "message": "Inga resor matchade dina kriterier",
+    "description": "Search didn't match any travels"
+  },
+  "originPlaceholder": {
+    "message": "Från",
+    "description": "From search box placeholder"
+  },
+  "destinationPlaceholder": {
+    "message": "Till",
+    "description": "To destination search box placeholder"
+  }
+}

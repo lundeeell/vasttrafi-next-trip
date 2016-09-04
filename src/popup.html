@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="/css/popup.css"/>
+        <script src='/scripts/jquery.min.js'></script>
+        <script src='/scripts/jquery-ui-1.9.2.custom.min.js'></script>
+        <script src='/resources/services.js'></script>
+        <script src='/scripts/quicksearch.js'></script>
+        <script src='/scripts/popup.js'></script>
+    </head>
+    <body>
+      <div class="header">
+        <button id="options">
+          <img src="/icons/settings.png" />
+        </button>
+        <div class="swap-container">
+          <div class="paper-shadow-bottom-z-2"></div>
+          <div class="paper-shadow-top-z-2"></div>
+          <img id="swap" class="swap" src="/icons/swap.png" />
+        </div>
+        <div class="locations">
+            <input id="origin" class="location" placeholder="From" />
+            <input id="destination" class="location" placeholder="To" />
+        </div>
+      </div>
+      <table id="travelTable">
+          <thead>
+              <th data-string="th_departures">Departure</th>
+              <th data-string="th_arrival">Arrival</th>
+              <th data-string="th_travelTime">Travel time</th>
+              <th data-string="th_changes">Changes</th>
+              <th data-string="th_line">Line</th>
+          </thead>
+          <tbody id="travelTbody">
+          </tbody>
+      </table>
+      <h1 id="errorMessage"></h1>
+    </body>
+</html>

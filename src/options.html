@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title data-string="title">Next trip</title>
+  <link rel="stylesheet" type="text/css" href="/css/options.css"/>
+  <script src='/resources/services.js'></script>
+  <script src='/scripts/options.js'></script>
+</head>
+<body>
+  <header>
+    <h1 data-string="appName">Next trip</h1>
+  </header>
+  <article>
+    <h2 data-string="travels">Travels</h2>
+    <section>
+      <label>
+        <span data-string="numberOfChanges">Maximum number of changes:</span>
+        <select id="maxChanges">
+          <option value="false" data-string="unlimitedChanges">Unlimited</option>
+        </select>
+      </label>
+      <br />
+      <label>
+        <span data-string="maxTravelTime">Max travel time (0 is infinite):</span>
+        <input type="text" id="maxTime">
+      </label>
+    </section>
+  </article>
+  <article>
+    <h2 data-string="toolbarIcon">Toolbar icon</h2>
+    <section>
+      <label>
+        <span data-string="refreshInterval">Refresh interval:</span>
+        <input type="text" id="refresh">
+      </label>
+    </section>
+  </article>
+  <div>
+    <h3 id="status" data-string="status_upToDate">All settings are up to date</h3>
+  </div>
+</body>
+</html>

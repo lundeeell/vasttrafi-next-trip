@@ -1,0 +1,40 @@
+{
+  "manifest_version" : 2,
+  "name": "__MSG_appName__",
+  "version": "0.1",
+
+  "author": "Simon Lundell",
+
+  "description": "__MSG_appDesc__",
+  "icons": {
+    "16" : "icons/bus_16.png",
+    "48" : "icons/bus_48.png",
+    "128" : "icons/bus_128.png"
+  },
+  "default_locale": "sv",
+
+  "permissions": [
+    "http://api.vasttrafik.se/*",
+    "storage",
+    "alarms"
+  ],
+
+  "options_page": "src/options.html",
+
+  "background": {
+    "scripts": [
+      "scripts/jquery.min.js",
+      "scripts/moment.js",
+      "resources/trip.js",
+      "resources/services.js",
+      "scripts/background.js"
+    ],
+    "persistent": false
+  },
+
+  "browser_action": {
+    "default_icon": "icons/bus_48.png",
+    "default_title": "Next trip",
+    "default_popup": "src/popup.html"
+  }
+}
